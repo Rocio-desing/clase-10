@@ -1,0 +1,52 @@
+body {
+    background-color: blue;
+}
+
+header {
+    background-color: thistle;
+    display: flex;
+    align-items: center;
+    height: 100hv;
+    width: 100 vw;
+    justify-content: flex-start;
+    
+}
+
+a {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    color: rgb(231, 135, 24);
+    display: inline;
+    text-decoration: none;
+        
+}
+
+
+li {
+    list-style-type: none;
+    display: inline-flex;
+    margin: 10px;
+    
+}
+
+    
+@media (min-width:600px) and (max-width:900px) {
+    h1 {
+        font-size: 32px; }
+
+    body {background-color: hotpink;
+    }
+}
+
+@media (max-width:600px) {
+    h1 {
+        font-size: 24px;}
+
+    body {  background-color: lawngreen;
+    }
+    
+    i {
+    font-size: 50px;
+    display: flex;
+    }
+}
